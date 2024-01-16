@@ -1,0 +1,19 @@
+.questlog-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.questlog-content h2{
+    margin: 0;
+    text-align: center;
+}
+
+
+.questlog-content ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+}

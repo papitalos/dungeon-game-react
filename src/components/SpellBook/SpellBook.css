@@ -1,0 +1,26 @@
+.spellbook-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spellbook-content ul{
+    width: 400px;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.spellbook-content ul li button{
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    box-shadow: 1px 1px 10px #235E54;
+    padding: 10px;
+}

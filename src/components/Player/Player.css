@@ -1,0 +1,22 @@
+.Player{
+    position: absolute;
+    transition: left 0.3s, top 0.3s;
+}
+
+.Player img{
+    width: 100%; 
+    height: 100%;
+}
+
+.spell-message {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: -30px; 
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff; 
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    border-radius: 5px;
+}

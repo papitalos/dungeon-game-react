@@ -1,0 +1,18 @@
+.grid-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.worldMap {
+    display: grid;
+    position: relative; /*relativo ao Player */
+    grid-template-columns: repeat(5, 100px);
+}
+
+.worldMapCell {
+    width: 100px;
+    height: 100px;
+    background-color: #71807D;
+}
