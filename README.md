@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# 🏰 Dungeon Game React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📖 Sobre o Projeto
 
-## Available Scripts
+Este é um **jogo de dungeon básico** desenvolvido em React com o objetivo de **aprender e praticar os fundamentos do React**. O projeto foi criado para explorar conceitos essenciais como:
 
-In the project directory, you can run:
+- ⚛️ Componentes funcionais
+- 🎣 React Hooks (useState, useEffect)
+- 🎮 Gerenciamento de estado
+- 🗺️ Navegação em mapa baseado em grid
+- ✨ Sistema de magias e feitiços
+- 📊 Gerenciamento de estatísticas do personagem
+
+### 🎯 Funcionalidades
+
+- 🚶‍♂️ Movimentação do jogador em um mapa em grid
+- ⚔️ Sistema de combate com golems
+- 🔮 Livro de feitiços interativo
+- 📋 Log de missões (Questlog)
+- 📈 Painel de estatísticas do personagem
+- 🗺️ Mapa do mundo navegável
+
+## 🚀 Como Rodar o Projeto
+
+### 📋 Pré-requisitos
+
+Antes de começar, certifique-se de ter instalado em sua máquina:
+
+- **Node.js** (versão 14 ou superior) - [Download aqui](https://nodejs.org/)
+- **npm** (geralmente vem com o Node.js)
+
+### 📥 Clonando o Repositório
+
+```bash
+# Clone o repositório
+git clone https://github.com/papitalos/dungeon-game-react.git
+
+# Entre na pasta do projeto
+cd dungeon-game-react
+```
+
+### 🔧 Instalação das Dependências
+
+```bash
+# Instale todas as dependências do projeto
+npm install
+```
+
+### ▶️ Executando o Projeto
+
+```bash
+# Inicie o servidor de desenvolvimento
+npm start
+```
+
+O projeto será aberto automaticamente no seu navegador em [http://localhost:3000](http://localhost:3000).
+
+## 📜 Scripts Disponíveis
 
 ### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Executa o aplicativo no modo de desenvolvimento.
+A página será recarregada automaticamente quando você fizer alterações.
 
 ### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Inicia o executor de testes no modo interativo.
 
 ### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Compila o aplicativo para produção na pasta `build`.
+Otimiza a compilação para melhor performance.
 
 ### `npm run eject`
+⚠️ **Atenção: esta é uma operação irreversível!**
+Remove a abstração do Create React App e expõe todas as configurações.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠️ Tecnologias Utilizadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React** 18.2.0
+- **React Router DOM** 6.21.2
+- **Axios** 1.6.5
+- **Socket.io Client** 4.7.4
+- **Create React App** 5.0.1
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📁 Estrutura do Projeto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+src/
+├── components/
+│   ├── CharacterStats/    # Estatísticas do personagem
+│   ├── Golem/            # Componente do golem
+│   ├── Player/           # Componente do jogador
+│   ├── Questlog/         # Log de missões
+│   ├── SpellBook/        # Livro de feitiços
+│   └── WorldMap/         # Mapa do mundo
+├── assets/               # Imagens e recursos
+├── App.js               # Componente principal
+└── index.js             # Ponto de entrada
+```
 
-## Learn More
+## 🎓 Conceitos React Praticados
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Este projeto é ideal para quem está aprendendo React, pois aborda:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 📦 **Componentização**: Divisão da aplicação em componentes reutilizáveis
+- 🔄 **Estado e Props**: Gerenciamento de dados entre componentes
+- 🎣 **Hooks**: useState para estado local, useEffect para efeitos colaterais
+- 🎨 **Estilização**: CSS modules e estilização de componentes
+- 🗂️ **Organização**: Estrutura de pastas e arquivos
+- 🎮 **Interatividade**: Eventos e manipulação de DOM
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Desenvolvido com ❤️ para aprender React!**
